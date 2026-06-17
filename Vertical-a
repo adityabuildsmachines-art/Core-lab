@@ -1,0 +1,8 @@
+# vertical-a/app.py
+
+def core_engine(x):
+    return x * x + 2
+
+if __name__ == "__main__":
+    print("Vertical A Running")
+    print("Test Output:", core_engine(5))
