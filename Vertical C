@@ -1,0 +1,8 @@
+# vertical-c/app.py
+
+def experiment(data):
+    return [d * 2 for d in data]
+
+if __name__ == "__main__":
+    print("Vertical C Experiment")
+    print(experiment([1, 2, 3, 4]))
